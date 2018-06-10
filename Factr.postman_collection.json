@@ -24,13 +24,10 @@
 					"raw": "{\n\t\"trustID\": dasdasdsadasdsadasdsa,\n\t\"password\" : asasfsdgdfgdfgfdgfd,\n\t\"value\" : 50,00\n}"
 				},
 				"url": {
-					"raw": "https://191.237.252.61:8443/api/wallets",
+					"raw": "https://localhost:8443/api/wallets",
 					"protocol": "https",
 					"host": [
-						"191",
-						"237",
-						"252",
-						"61"
+						"localhost"
 					],
 					"port": "8443",
 					"path": [
@@ -121,6 +118,135 @@
 						"api",
 						"transactions",
 						"dfgtfhuyjgyhbfthjug"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trustID\": \"gfhfghfdbdbdf\",\n    \"password\": \"asddfghfhersfsasdasdsa\"\n}"
+				},
+				"url": {
+					"raw": "https://191.237.252.61:8443/api/wallet",
+					"protocol": "https",
+					"host": [
+						"191",
+						"237",
+						"252",
+						"61"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"wallet"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trustID\": \"gfhfghfdbdbdf\",\n    \"password\": \"asddfghfhersfsasdasdsa\"\n}"
+				},
+				"url": {
+					"raw": "https://191.237.252.61:8443/api/wallet",
+					"protocol": "https",
+					"host": [
+						"191",
+						"237",
+						"252",
+						"61"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"wallet"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trustID\": \"gfhfghfdbdbdf\",\n    \"password\": \"asddfghfhersfsasdasdsa\"\n}"
+				},
+				"url": {
+					"raw": "https://191.237.252.61:8443/api/wallet",
+					"protocol": "https",
+					"host": [
+						"191",
+						"237",
+						"252",
+						"61"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"wallet"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://191.237.252.61:8443/api/wallet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trustID\": \"renatocassola@brq.com\",\n    \"password\": \"Hackathon@2018\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:8443/api/wallet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"wallet"
 					]
 				},
 				"description": ""

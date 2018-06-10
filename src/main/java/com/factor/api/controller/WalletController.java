@@ -1,6 +1,7 @@
 package com.factor.api.controller;
 
 import java.util.List;
+import java.util.Random;
 
 import javax.validation.Valid;
 
@@ -60,6 +61,20 @@ public class WalletController {
 		Wallet updatedWallet = walletRepository.save(walletMaster);
 
 		return updatedWallet;
+	}
+
+	@PostMapping("/wallet")
+	public Wallet insertWallet(@Valid @RequestBody Wallet wallet) {
+
+		Wallet walletChild = new Wallet();
+
+		walletChild.setTrustID(wallet.getTrustID());
+		walletChild.setPassword(wallet.getPassword());
+
+		Integer randomInt = 500 + new Random().nextInt(1000 - 500 + 1);
+		walletChild.setValue(randomInt.floatValue());
+
+		return walletRepository.save(walletChild);
 	}
 
 }

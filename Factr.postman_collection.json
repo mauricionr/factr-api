@@ -1,0 +1,116 @@
+{
+	"info": {
+		"name": "Factr",
+		"_postman_id": "8c6fc06a-b50f-e837-2b19-449e53e8dd4d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/wallets",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"trustID\": dasdasdsadasdsadasdsa,\n\t\"password\" : asasfsdgdfgdfgfdgfd,\n\t\"value\" : 50,00\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/wallets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"wallets"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"trustID\": \"gfhfghfdbdbdf\",\n        \"password\": \"asddfghfhersfsasdasdsa\",\n        \"value\": 20\n    },\n    {\n        \"trustID\": \"kjsdfkhjdsfhjsdfjk\",\n        \"password\": \"sdfksdjfkjsdfds\",\n        \"value\": 30\n    },\n    {\n        \"trustID\": \"sadasdas\",\n        \"password\": \"asdasdasdsa\",\n        \"value\": 40\n    }\n]"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"wallet",
+						"dfgtfhuyjgyhbfthjug"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/api/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transactions"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/transactions/dfgtfhuyjgyhbfthjug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/api/transactions/dfgtfhuyjgyhbfthjug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transactions",
+						"dfgtfhuyjgyhbfthjug"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

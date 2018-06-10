@@ -9,6 +9,9 @@
 		{
 			"name": "http://localhost:8080/api/wallets",
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -21,12 +24,15 @@
 					"raw": "{\n\t\"trustID\": dasdasdsadasdsadasdsa,\n\t\"password\" : asasfsdgdfgdfgfdgfd,\n\t\"value\" : 50,00\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/wallets",
-					"protocol": "http",
+					"raw": "https://191.237.252.61:8443/api/wallets",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"191",
+						"237",
+						"252",
+						"61"
 					],
-					"port": "8080",
+					"port": "8443",
 					"path": [
 						"api",
 						"wallets"
@@ -51,12 +57,15 @@
 					"raw": "[\n    {\n        \"trustID\": \"gfhfghfdbdbdf\",\n        \"password\": \"asddfghfhersfsasdasdsa\",\n        \"value\": 20\n    },\n    {\n        \"trustID\": \"kjsdfkhjdsfhjsdfjk\",\n        \"password\": \"sdfksdjfkjsdfds\",\n        \"value\": 30\n    },\n    {\n        \"trustID\": \"sadasdas\",\n        \"password\": \"asdasdasdsa\",\n        \"value\": 40\n    }\n]"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/wallet/dfgtfhuyjgyhbfthjug",
-					"protocol": "http",
+					"raw": "https://191.237.252.61:8443/api/wallet/dfgtfhuyjgyhbfthjug",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"191",
+						"237",
+						"252",
+						"61"
 					],
-					"port": "8080",
+					"port": "8443",
 					"path": [
 						"api",
 						"wallet",
@@ -74,12 +83,15 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8080/api/transactions",
-					"protocol": "http",
+					"raw": "https://191.237.252.61:8443/api/transactions",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"191",
+						"237",
+						"252",
+						"61"
 					],
-					"port": "8080",
+					"port": "8443",
 					"path": [
 						"api",
 						"transactions"
@@ -96,12 +108,15 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8080/api/transactions/dfgtfhuyjgyhbfthjug",
-					"protocol": "http",
+					"raw": "https://191.237.252.61:8443/api/transactions/dfgtfhuyjgyhbfthjug",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"191",
+						"237",
+						"252",
+						"61"
 					],
-					"port": "8080",
+					"port": "8443",
 					"path": [
 						"api",
 						"transactions",
